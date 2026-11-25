@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>संपर्क साधा (Contact Us) | ऑटो विश्व मराठी</title>
+  <meta name="description" content="ऑटो विश्व मराठी टीमशी संपर्क साधण्यासाठी ईमेल आणि संपर्क फॉर्म.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">ऑटो विश्व <span>मराठी</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">मुख्य पान</a></li>
+          <li><a href="about.html">आमच्याबद्दल</a></li>
+          <li><a href="contact.html" class="active">संपर्क</a></li>
+          <li><a href="privacy.html">गोपनीयता धोरण</a></li>
+          <li><a href="disclaimer.html">अस्वीकरण</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="content-box article-content">
+      <h1>संपर्क साधा (Contact Us)</h1>
+      <p>तुम्हाला वाहन खरेदी, मेंटेनन्स, लेखांमधील माहिती किंवा जाहिरातींसंदर्भात काही विचारपूस करायची असल्यास खालील माध्यमातून आमच्याशी संपर्क साधू शकता. आम्ही २४ ते ४८ तासांत उत्तर देण्याचा प्रयत्न करतो.</p>
+
+      <p><strong>ईमेल पत्ता:</strong> autovishwamarathi@gmail.com<br>
+      <strong>ठिकाण:</strong> नाशिक, महाराष्ट्र, भारत</p>
+
+      <form class="contact-form" action="mailto:autovishwamarathi@gmail.com" method="post" enctype="text/plain">
+        <label for="name">तुमचे पूर्ण नाव</label>
+        <input type="text" id="name" name="name" placeholder="उदा. राजेश पाटील" required>
+
+        <label for="email">तुमचा ईमेल पत्ता</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+        <label for="subject">विषय</label>
+        <input type="text" id="subject" name="subject" placeholder="उदा. कार मेंटेनन्स किंवा जाहिरात चौकशी" required>
+
+        <label for="message">तुमचा संदेश</label>
+        <textarea id="message" name="message" rows="5" placeholder="तुमचा प्रश्न किंवा अभिप्राय येथे लिहा..." required></textarea>
+
+        <button type="submit" class="btn">संदेश पाठवा</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">मुख्य पान</a>
+        <a href="about.html">आमच्याबद्दल (About Us)</a>
+        <a href="contact.html">संपर्क (Contact Us)</a>
+        <a href="privacy.html">गोपनीयता धोरण (Privacy Policy)</a>
+        <a href="disclaimer.html">अस्वीकरण (Disclaimer)</a>
+      </div>
+      <div class="copyright">
+        &copy; २०२६ ऑटो विश्व मराठी (Auto Vishwa Marathi). सर्व हक्क राखीव.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
